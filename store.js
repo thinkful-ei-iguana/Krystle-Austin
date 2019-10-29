@@ -1,14 +1,14 @@
 const store = {
-  questions: [
+  totalQuestions: [
     {
       question: "Why does the Wizard wear a hood?",
       options: [
-        "To focus channel his fireball",
+        "To channel his fireball",
         "To cloak himself during battle",
-        "To hide his hair-do"
+        "To hide his hair-do",
         "To keep his hair clean"
       ],
-      answer: "To hide his hair-do"
+      answer: 2
     },
 
     {
@@ -19,7 +19,7 @@ const store = {
         "Placing, Epic, King, Killer, Armour",
         "Something gibberish"
       ],
-      answer: "Nobody Knows"
+      answer:1
     },
 
     {
@@ -30,7 +30,7 @@ const store = {
         "Hidden-Tesla",
         "Air Defense"
       ],
-      answer: "Air Defense"
+      answer: 3
     },
 
     {
@@ -41,7 +41,7 @@ const store = {
         "Mr-T",
         "His own special person"
       ],
-      answer: "Mr-T"
+      answer: 2
     },
 
     {
@@ -52,7 +52,7 @@ const store = {
         "Stealthy and decisive",
         "Agile and defensive"
       ],
-      answer: "Crazy and Enraged"
+      answer: 1
     }
   ],
   currentQuestion: 0,
